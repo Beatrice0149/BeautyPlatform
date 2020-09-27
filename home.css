@@ -1,0 +1,70 @@
+h1 {
+    color: #DB3838;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-style: arial;
+    font-size: 15px;
+    text-align: center;
+}
+
+.search {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+}
+
+.search p {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.search input {
+    width: 15rem;
+    height: 2rem;
+    border-width: thin;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+}
+
+.search select {
+    width: 16rem;
+    height: 2.4rem;
+    border-width: thin;
+    border-radius: 25px;
+    margin-left: 6rem;
+}
+
+.professionals {
+    border: thin solid black;
+    width: 30rem;
+    height: 24rem;
+    margin: 1.3rem 3rem 2rem 5rem;
+}
+
+.professionals img {
+    width: 30rem;
+    height: 15rem;
+}
+
+.professionals strong {
+    margin-left: 2.5rem;
+    font-size: 23px;
+}
+
+.professionals p {
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.professionals a {
+    margin-left: 21rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
