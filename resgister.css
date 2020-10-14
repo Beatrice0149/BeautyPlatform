@@ -1,0 +1,93 @@
+body {
+    background-color: #E5E5E5;
+}
+
+a {
+    width: 9rem;
+    height: 2.4rem;
+    margin-top: 1rem;
+    margin-left: 65%;
+    border: thin solid #D7D7D7;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #700000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+p {
+    width: 65%;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #575757;
+}
+
+#area-register {
+    width: 80%;
+    height: 30rem;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    
+}
+
+#area-register p {
+    font-weight: bold;
+    color: black;
+    margin-top: 1.5rem;
+    position: absolute;
+    margin-left: 3rem;
+}
+
+#area-register input {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 4rem;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom: thin solid #575757;
+    border-left-style: none;
+    font-size: 1.2rem;
+}
+
+#area-register .left {
+    display: block;
+    margin-left: 3.8rem;
+}
+
+#area-register .right {
+    display: block;
+}
+
+#area-register button {
+    height: 2.5rem;
+    width: 14rem;
+    
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #700000;
+    font-size: 15px;
+    font-weight: bold;
+    color: #E5E5E5;
+    
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
