@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-
-<html>
-    <header>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plataforma da Beleza</title>
         <link rel="stylesheet" href="home.css">
-    </header>
+    </head>
     <body>
-
-        
         <div class="logo">
-
+            <!--button for sign up-->
             <a href="/register.html">Sou um profissional da Beleza</a>
-            
             <H1>Plataforma da Beleza</H1>
-    
             <p>Descubra profissionais da beleza perto de você</p>
 
-            <input type="text" name="" id="" placeholder="Endereço">
-
-            <select name="" id="">Tipo de serviço</select>
-
-            <button>Buscar</button>
-            
+            <input list="services" placeholder="Serviços">
+            <datalist id="services">
+                <option value="Cabelereiro(a)/Barbeiro(a)">
+                <option value="Maqueador(a)">
+                <option value="Depilador(a)">
+                <option value="Esteticista">
+                <option value="Manicure/Pedicure">
+                <option value="Massagistas">
+            </datalist>
+            <!--serach by address-->
+            <input type="text" placeholder="Endereço">
+            <!--insert javascript-->
+            <input type="button" value="Buscar">
         </div>
 
-        <div class="professionals">
+        <div class="results">
+            <!--add data base of all tags here-->
+            <h3>Cabelereiro(a)/Barbeiro(a)</h3>
 
-            <img src="/img/salaodalu.jpg" alt="">
+            <img src="img/iconcream.png" alt="Cabelereiro/Barbeiro">
 
-            <strong>Salão da Lu</strong>
+            <h2>Salão da Lu</h2>
 
-            <p>Horario:</p>
+            <p>Horario de atendimento: 08:00 - 18:00</p>
 
-            <p>Local</p>
+            <p>Endereço: Rua: Joana 199
+                Bairro Valverde - NOVA iGUAÇU</p>
 
             <a href="/salon.html">Ver Serviços</a>
 
