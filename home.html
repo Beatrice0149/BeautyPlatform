@@ -7,43 +7,57 @@
         <link rel="stylesheet" href="home.css">
     </head>
     <body>
-        <div class="logo">
-            <!--button for sign up-->
-            <a href="/register.html">Sou um profissional da Beleza</a>
-            <H1>Plataforma da Beleza</H1>
-            <p>Descubra profissionais da beleza perto de você</p>
+        <header>
+            <section class="container-home">
+                <div class="text-home">
+                    <H1><i>Plataforma da Beleza</i></H1>
+                    <p>Pesquise por locais ou serviços especificos e descubra profissionais da beleza perto de você</p>
+                    <a href="">Encontrar Locais</a>
+                </div>
+                <div class="design-home">
+                    <!--button for sign up-->
+                    <a href="/signin.html">Acessar Loja</a>
+                    
+                    <img src="/img/backgroundhome.png" alt="">
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="menu-search">
+                <input list="services" placeholder="Serviços">
+                <datalist id="services">
+                    <option value="Cabelereiro(a)/Barbeiro(a)">
+                    <option value="Maqueador(a)">
+                    <option value="Depilador(a)">
+                    <option value="Esteticista">
+                    <option value="Manicure/Pedicure">
+                    <option value="Massagistas">
+                </datalist>
+                <!--serach by address-->
+                <input type="text" placeholder="Endereço">
+                <!--insert javascript-->
+                <input class="button-search" type="button" value="Buscar">
+            </section>
+            <section>
+                <div class="results">
+                    <!--add data base of all tags here-->
+                    <h3>Cabelereiro(a)/Barbeiro(a)</h3>
 
-            <input list="services" placeholder="Serviços">
-            <datalist id="services">
-                <option value="Cabelereiro(a)/Barbeiro(a)">
-                <option value="Maqueador(a)">
-                <option value="Depilador(a)">
-                <option value="Esteticista">
-                <option value="Manicure/Pedicure">
-                <option value="Massagistas">
-            </datalist>
-            <!--serach by address-->
-            <input type="text" placeholder="Endereço">
-            <!--insert javascript-->
-            <input type="button" value="Buscar">
-        </div>
+                    <img src="img/iconcream.png" alt="Cabelereiro/Barbeiro">
+            
+                    <h2><b>Salão da Lu</b></h2>
+            
+                    <p><b>Horario de atendimento</b> 08:00 - 18:00</p>
+            
+                    <p><b>Endereço:</b> Rua: Joana 199<br>
+                            Bairro Valverde - NOVA IGUAÇU</p>
+            
+                    <a href="/salon.html"><b>Ver todos os Serviços</b></a>
+            
+                </div>
+            </section>
+        </main>
 
-        <div class="results">
-            <!--add data base of all tags here-->
-            <h3>Cabelereiro(a)/Barbeiro(a)</h3>
-
-            <img src="img/iconcream.png" alt="Cabelereiro/Barbeiro">
-
-            <h2>Salão da Lu</h2>
-
-            <p>Horario de atendimento: 08:00 - 18:00</p>
-
-            <p>Endereço: Rua: Joana 199
-                Bairro Valverde - NOVA iGUAÇU</p>
-
-            <a href="/salon.html">Ver Serviços</a>
-
-        </div>
 
     </body>
 </html>

@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastre-se</title>
         <link rel="stylesheet" href="/resgister.css">
-    </header>
+    </head>
     <body>
-        <a href="">Login</a>
+        <main>
+            <section class="layout-register">
+                <a href="/home.html"><img src="/img/return.png" alt="voltar"></a>
+                <h1>Cadastre o seu espaço</h1>
+                <div class="area-register">
 
-        <h1>Cadastre o seu espaço da Beleza para encontrar + clientes!</h1>
+                    <div class="left">
+                        <input type="text" placeholder="digite o nome do seu salão"><br>
+                        <input type="datetime" name="" id="" placeholder="horário de funcionamento"><br>
+                        <input type="text" placeholder="adicione serviços"><br> 
+                        <input type="text" name="" id="" placeholder="bio"> 
+                    </div>
+                    
+                    <div class="right">
+                        <input type="text" placeholder="endereço"><br>
+                        <input type="url" name="" id="" placeholder="whatsapp"><br>
+                        <button>Continuar</button>
+                    </div>
+                </div>
+    
 
-        <p>Beleza Online é uma plataforma voltada para todos os profissionais da beleza,
-            seja Barbeiros, Cabelereiros, Manicures, Massagistas etc. Sinta-se a vontade
-            em juntar-se a nós e ganhar cada vez mais reconhecimento no seu trabalho!</p>
+                <!--add photos-->
 
-        <div id="area-register">
-            <p>REGISTRE O SEU ESPAÇO</p>
-
-            <div class="left">
-                <input type="text" placeholder="digite o nome do seu salão">
-                <input type="datetime" name="" id="" placeholder="horário de funcionamento">
-                <input type="text" placeholder="adicione serviços"> 
-                <input type="text" name="" id="" placeholder="bio"> 
-            </div>
-            
-            <div class="right">
-                <input type="text" placeholder="endereço">
-                <input type="url" name="" id="" placeholder="whatsapp">
-                <button>Continuar</button>
-            </div>
-            <!--adicione fotos-->
-
-        </div>
+            </section>
+        </main>
+        <footer>
+            <p>Já está cadastrado? <a href="/signin.html">Entrar</a></p>
+        </footer>
     </body>
 </html>
