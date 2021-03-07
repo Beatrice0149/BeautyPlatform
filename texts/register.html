@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadastre-se</title>
-        <link rel="stylesheet" href="/resgister.css">
+        <link rel="stylesheet" href="/style/resgister.css">
+        <link rel="stylesheet" href="/style/modal.css">
     </head>
     <body>
         <main>
             <section class="layout-register">
-                <a href="/home.html"><img src="/img/return.png" alt="voltar"></a>
+                <a href="/texts/home.html"><img src="/img/return50x50.png" alt="voltar"></a>
                 <h1>Cadastre o seu espaço</h1>
                 <div class="area-register">
 
@@ -33,7 +34,19 @@
             </section>
         </main>
         <footer>
-            <p>Já está cadastrado? <a href="/signin.html">Entrar</a></p>
+            <p>Já está cadastrado? <a href="#openmodal">Entrar</a></p>
         </footer>
+        <section>
+            <div id="openmodal" class="modal">
+                <div class="login">
+                    <a href="#close"><img src="/img/return50x50.png" alt="voltar"></a>
+                    <h1>Entrar</h1>
+                    <input type="email" placeholder="email"><br>
+                    <input type="password" placeholder="senha"><br>
+                    <button>Entrar</button>
+                    <p>Não tem cadastro? <a href="/texts/register.html">Se Cadastrar</a></p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

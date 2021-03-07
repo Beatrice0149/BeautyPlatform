@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Plataforma da Beleza</title>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="/style/home.css">
+        <link rel="stylesheet" href="/style/modal.css">
     </head>
     <body>
         <header>
@@ -16,9 +17,21 @@
                 </div>
                 <div class="design-home">
                     <!--button for sign up-->
-                    <a href="/signin.html">Acessar Loja</a>
+                    <a href="#openmodal">Login</a>
                     
                     <img src="/img/backgroundhome.png" alt="">
+                </div>
+            </section>
+            <section>
+                <div id="openmodal" class="modal">
+                    <div class="login">
+                        <a href="#close"><img src="/img/return50x50.png" alt="voltar"></a>
+                        <h1>Entrar</h1>
+                        <input type="email" placeholder="email"><br>
+                        <input type="password" placeholder="senha"><br>
+                        <button>Entrar</button>
+                        <p>Não tem cadastro? <a href="/texts/register.html">Se Cadastrar</a></p>
+                    </div>
                 </div>
             </section>
         </header>
@@ -52,7 +65,7 @@
                     <p><b>Endereço:</b> Rua: Joana 199<br>
                             Bairro Valverde - NOVA IGUAÇU</p>
             
-                    <a href="/salon.html"><b>Ver todos os Serviços</b></a>
+                    <a href="/salon-client.html"><b>Ver todos os Serviços</b></a>
             
                 </div>
             </section>
